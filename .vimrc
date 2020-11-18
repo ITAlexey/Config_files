@@ -46,6 +46,12 @@ nnoremap <C-L> <C-W>l
 nnoremap <C-H> <C-W>h
 nnoremap <C-Q> <C-W>q
 
+" Nightmare mode
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
+
 " Unbind useless key bindings
 nmap Q <Nop>
 set noerrorbells visualbell t_vb=
