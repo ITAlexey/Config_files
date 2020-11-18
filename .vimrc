@@ -39,6 +39,9 @@ let g:mapleader=' '
 map <C-n> :NERDTreeToggle<CR>
 map <Leader> <Plug>(easymotion-prefix)
 
+" Copy line from the current postion of cursor to the end
+nnoremap Y y$
+
 " Convenient approach to navigate through widnows
 nnoremap <C-J> <C-W>j
 nnoremap <C-K> <C-W>k
